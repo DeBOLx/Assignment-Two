@@ -1,0 +1,157 @@
+/* Desktop Version */
+.container {
+    Width:1300px;
+    Height:840px;
+    border:1px lightblue;
+    border-radius: 5px;
+    display:flex;
+    margin: 90px auto;
+    background-color: hsla(0, 0%, 100%, 1);
+}
+.first-box{
+    width: 460px;
+    height: 275px;
+    border:1px lightblue;
+    margin: auto;    
+}
+
+.second-box {
+    Width:580px;
+    Height:679px;
+    border:1px lightblue;
+    border-radius:6px;
+    background: hsla(0, 0%, 100%, 1);
+    box-shadow: 0px 4px 50px 0px hsla(222, 68%, 4%, 0.1);
+    margin: 0 auto;
+    margin-top:100px;
+}
+
+ .form-field {
+    display: flex;
+    gap:50px;
+    padding:25px;
+
+}
+
+a {
+    color:hsla(174, 62%, 47%, 1);
+    
+}
+
+.box3 {
+    padding-top: 10px;
+    width: 500px;
+    height: 48px;
+    top: 24px;
+
+}
+
+input, select, option {
+    padding:15px;
+    width: 200px;
+    height: 35px;
+    top: 24px;
+}
+
+
+button {
+    width:525px;
+    height:58px;
+    top:631px;
+    left: 760px;
+    background: hsla(174, 62%, 47%, 1);
+    font-family:Brown;
+    font-weight: 600;
+    text-align: center;
+    font-size: 17px;
+    color:hsla(0, 0%, 100%, 1);
+    margin-top:165px;
+    margin-left:25px;
+    margin-right: -10px;
+}
+
+#gender {
+    padding:30px;
+    width: 235px;
+    height: 35px;
+    top: 24px;
+
+}
+#password {
+    height:35px;
+    width: 490px;
+}
+#Activity {
+    width:520px;
+    height:63px;
+}
+
+.Activity {
+    /* width:900px; */
+    margin-left:10px;
+    padding:15px;
+    height:10px;
+
+}
+label {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+
+}
+
+ #id {
+    padding:15px;
+    width: 200px;
+    height: 35px;
+    top: 24px;
+} 
+img {
+    margin-inline: -40px;
+}
+
+
+
+h3 {
+
+    font-size: 2.5rem;
+    font-weight:530px;
+    line-height:3.125rem;
+}
+ .first-paragraph {
+    color: hsla(0, 0%, 45%, 1);
+    font-family: Brown;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.second-paragraph {
+   margin-left:45px;
+}
+
+.mobile-paragraph {
+    display:none;
+    color: hsla(0, 0%, 45%, 1);
+}
+
+/* Mobile Version */
+
+@media (max-width: 425px){
+    .container {
+    flex-direction: column;
+    }
+    .form-field {
+        flex-direction: column;
+    }
+    .mobile-paragraph {
+        display:block;
+    }
+    .first-paragraph {
+        display:none;
+    }
+}
